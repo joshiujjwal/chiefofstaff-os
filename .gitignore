@@ -1,0 +1,63 @@
+# Node / TypeScript
+node_modules/
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# Vite
+client/dist/
+client/.vite/
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Database
+*.sqlite
+*.sqlite3
+drizzle/
+# Keep migration files
+!server/src/db/migrations/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+coverage/
+.vitest/
+test-results/
+
+# Docker
+.dockerignore
+
+# Misc
+*.pem
+.turbo/
+.next/
